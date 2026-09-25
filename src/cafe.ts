@@ -127,4 +127,4 @@ console.log(allergyCard(brownie));
 
 console.log(describe(risotto));
 console.log(updateItem(soup, { price: 7.00 }));
-console.log(firstMatch(menu, (i) => i.nutritioncalories < 300));
+console.log(firstMatch(menu, (i) => i.nutrition.calories < 300));
